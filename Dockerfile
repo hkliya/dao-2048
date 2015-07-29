@@ -1,7 +1,7 @@
 # Using a compact OS
-FROM alpine:latest
+FROM ubuntu:latest
 
-MAINTAINER Golfen Guo <golfen.guo@daocloud.io> 
+MAINTAINER Seaborn Lee <seabornlee.cn@gmail.com> 
 
 # Install Nginx
 RUN apk --update add nginx
